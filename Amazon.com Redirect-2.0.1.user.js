@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Amazon.com Redirect
 // @namespace    https://greasyfork.org/en/users/1581940-cityboi8
-// @version      2.0
+// @version      2.0.1
 // @description  Redirects Amazon.com to your local country site automatically
 // @author       CityBoi8
 // @match        *://*.amazon.*/*
@@ -70,6 +70,7 @@
 
     const newUrl = currentUrl.replace(currentDomain, targetDomain);
     window.location.replace(newUrl);
+    return;
 
     // Auto-click "Continue shopping" button if it appears
     function autoClickContinue() {
