@@ -4,7 +4,7 @@
 // @version      2.0.1
 // @description  Redirects Amazon.com to your local country site automatically
 // @author       CityBoi8
-// @match        *://*.amazon.*/*
+// @match        *://*.amazon.com/*
 // @grant        none
 // @license      MIT
 // @run-at       document-idle
